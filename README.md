@@ -48,3 +48,15 @@ The implementation of the Abstract Factory pattern can be found [here](src/main/
 ### Use Cases
 - **Product Families**: When you need to create related objects that should share a common theme or style.
 - **Extensibility**: It helps in adding new families of products without modifying the existing code.
+
+## Builder Pattern
+
+### Definition
+The **Builder pattern** is a creational design pattern that lets you construct complex objects step-by-step.
+
+### Implementation
+The implementation of the Builder pattern can be found [here](src/main/java/org/example/builder).
+
+### Use Cases
+- **Creating Complex Objects**: Useful for objects with many optional fields or complex configurations.
+- **Improving Readability**: Simplifies object creation, making it easier to understand and maintain.
