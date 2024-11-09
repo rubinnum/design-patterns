@@ -60,3 +60,19 @@ The implementation of the Builder pattern can be found [here](src/main/java/org/
 ### Use Cases
 - **Creating Complex Objects**: Useful for objects with many optional fields or complex configurations.
 - **Improving Readability**: Simplifies object creation, making it easier to understand and maintain.
+
+## Prototype Pattern
+
+### Definition
+The Prototype pattern is a creational design pattern that allows for the creation of new objects by copying existing ones, rather than creating new instances from scratch. 
+
+### Implementation
+The implementation of the Prototype pattern can be found [here](src/main/java/org/example/prototype).
+
+### Prototype Registry
+A Prototype Registry is an optional extension of this pattern. It acts as a central storage for prototype instances that are commonly used.
+When new commonly used instance is needed, it can be retrieved and cloned from the registry.
+
+### Use Cases
+- **Game Development**: To quickly generate large numbers of similar game objects with slight variations.
+- **Prototypes for Testing**: To create testing objects with predefined configurations without needing to initialize each from scratch.
