@@ -55,7 +55,7 @@ The implementation of the Abstract Factory pattern can be found [here](src/main/
 The **Builder pattern** is a creational design pattern that lets you construct complex objects step-by-step.
 
 ### Implementation
-The implementation of the Builder pattern can be found [here](src/main/java/org/example/builder).
+The implementation of the Builder pattern can be found [here](src/main/java/org/example/builder)
 
 ### Use Cases
 - **Creating Complex Objects**: Useful for objects with many optional fields or complex configurations.
@@ -67,7 +67,7 @@ The implementation of the Builder pattern can be found [here](src/main/java/org/
 The Prototype pattern is a creational design pattern that allows for the creation of new objects by copying existing ones, rather than creating new instances from scratch. 
 
 ### Implementation
-The implementation of the Prototype pattern can be found [here](src/main/java/org/example/prototype).
+The implementation of the Prototype pattern can be found [here](src/main/java/org/example/prototype)
 
 ### Prototype Registry
 A Prototype Registry is an optional extension of this pattern. It acts as a central storage for prototype instances that are commonly used.
@@ -76,3 +76,16 @@ When new commonly used instance is needed, it can be retrieved and cloned from t
 ### Use Cases
 - **Game Development**: To quickly generate large numbers of similar game objects with slight variations.
 - **Prototypes for Testing**: To create testing objects with predefined configurations without needing to initialize each from scratch.
+
+## Adapter Pattern
+
+### Definition
+An Adapter pattern acts as a connector between two incompatible interfaces that otherwise cannot be connected directly.
+The main goal for this pattern is to convert an existing interface into another one the client expects.
+
+### Implementation
+The implementation of the Adapter pattern can be found [here](src/main/java/org/example/adapter)
+
+### Use Cases
+- **Third-party Library Integration**: When using third-party libraries with interfaces that do not match your application's requirements, an adapter allows you to use these libraries without changing your existing codebase.
+- **Legacy System Integration**: When you have existing systems that need to be integrated with new systems, but they don’t have compatible interfaces.
