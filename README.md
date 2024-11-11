@@ -89,3 +89,15 @@ The implementation of the Adapter pattern can be found [here](src/main/java/org/
 ### Use Cases
 - **Third-party Library Integration**: When using third-party libraries with interfaces that do not match your application's requirements, an adapter allows you to use these libraries without changing your existing codebase.
 - **Legacy System Integration**: When you have existing systems that need to be integrated with new systems, but they don’t have compatible interfaces.
+
+## Bridge Pattern
+
+### Definition
+Bridge lets you split a large class or a set of closely related classes into two separate hierarchies — abstraction and implementation — which can be developed independently of each other.
+
+### Implementation
+The implementation of the Bridge pattern can be found [here](src/main/java/org/example/bridge)
+
+### Use Cases
+- **When you need to extend a class in multiple dimensions**: If you need to add new functionalities to a class, but avoid creating a large number of subclasses for every combination of features.
+- **When you want to divide and organize a monolithic class that has several variants of some functionality**: After this, you can change the classes in each hierarchy independently of the classes in the others. This approach simplifies code maintenance and minimizes the risk of breaking existing code.
