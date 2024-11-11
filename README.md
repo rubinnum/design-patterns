@@ -6,6 +6,11 @@ This repository provides examples and explanations of various design patterns im
 - [Singleton Pattern](#singleton-pattern)
 - [Factory Pattern](#factory-pattern)
 - [Abstract Factory Pattern](#abstract-factory-pattern)
+- [Builder Pattern](#builder-pattern)
+- [Prototype Pattern](#prototype-pattern)
+- [Adapter Pattern](#adapter-pattern)
+- [Bridge Pattern](#bridge-pattern)
+- [Composite Pattern](#composite-pattern)
 
 ## Singleton Pattern
 
@@ -101,3 +106,13 @@ The implementation of the Bridge pattern can be found [here](src/main/java/org/e
 ### Use Cases
 - **When you need to extend a class in multiple dimensions**: If you need to add new functionalities to a class, but avoid creating a large number of subclasses for every combination of features.
 - **When you want to divide and organize a monolithic class that has several variants of some functionality**: After this, you can change the classes in each hierarchy independently of the classes in the others. This approach simplifies code maintenance and minimizes the risk of breaking existing code.
+
+## Composite Pattern
+
+### Definition
+Composite is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
+
+### Implementation
+The implementation of the Composite pattern can be found [here](src/main/java/org/example/composite)
+- **When you have to implement a tree-like object structure**: Useful for managing hierarchies where each object can be either a simple element or a composite of multiple elements (e.g., file systems, organizational charts).
+- **When you want the client code to treat both simple and complex elements uniformly**: All elements defined by the Composite pattern share a common interface so that the client doesn’t have to worry about the concrete class of the objects it works with.
